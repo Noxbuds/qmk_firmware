@@ -1,0 +1,11 @@
+{
+    "keyboard_name": "nox_42",
+    "manufacturer": "noxbuds",
+    "url": "",
+    "maintainer": "noxbuds",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0000",
+        "device_version": "1.0.0"
+    }
+}

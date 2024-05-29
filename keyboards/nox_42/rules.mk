@@ -1,0 +1,8 @@
+MCU = atmega32u4
+F_CPU = 16000000
+
+BOOTLOADER = caterina
+
+NKRO_ENABLE = yes
+SPLIT_KEYBOARD = yes
+COMBO_ENABLE = yes
