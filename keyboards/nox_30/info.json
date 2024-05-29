@@ -5,32 +5,15 @@
     "maintainer": "noxbuds",
     "usb": {
         "vid": "0xFEED",
-        "pid": "0x0000",
+        "pid": "0x1234",
         "device_version": "1.0.0"
     },
     "development_board": "promicro",
     "features": {
         "mousekey": true
     },
-    "matrix_pins": {
-        "cols": ["D1", "D0", "D4", "C6", "D7"],
-        "rows": ["F4", "F5", "F6"]
-    },
     "split": {
         "enabled": true,
-        "soft_serial_pin": "D3",
-        "matrix_pins": {
-            "left": {
-                "cols": ["D7", "C6", "D4", "D0", "D1"],
-                "rows": ["F4", "F5", "F6"]
-            }
-        }
-    },
-    "layouts": {
-        "LAYOUT_default": {
-            "layout": [
-
-            ]
-        }
+        "soft_serial_pin": "D3"
     }
 }
